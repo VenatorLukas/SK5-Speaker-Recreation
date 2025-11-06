@@ -1,8 +1,8 @@
 # SK5-Speaker-Recreation
-# In Line 9, the device address is left blank because it currently needs to be hardcoded. To get yours please put "busctl tree org.bluez" in the terminal while your phone is connected to the raspberry pi and find it there.
-# It will be something like: hci_/dev_##_##..../player_
+#The current code is no updated two have 4 buttons: one controls bluetooth connection, one does song skipping, one is a pause/play, and one is the go back button. There is also code for a rotary encoder that can control volume with increments of 5%.
 
+#I also turned off pin verification for bluetooth connection and will automatically pull your device address from the bluetooth connection
 
-# this will also change whenever you turn off and turn on the raspberry pi
+#also I use spotify for this and in my device address it is set to /player2, if you are using apple music it will be /player0 but for other i am not sure and that may need to be edited.
 
 # This is the following code for the SK5 Speaker Recreation. The following code controls a raspberry pi 4B with a hifiberry amp2 amplifier connected a single full range speaker to play music. It also controls a display to show the songs meta data, small display that shows the time bar, and buttons to control playback and bluetooth connection.
